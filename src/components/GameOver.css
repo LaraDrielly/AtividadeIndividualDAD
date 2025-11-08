@@ -1,0 +1,27 @@
+.gameOver {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 25px;
+    border: 2px solid var(--prata);
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(236, 64, 122, 0.2);
+    animation: fadeIn 0.8s ease;
+  }
+  
+  .gameOver h1 {
+    color: var(--rosa-forte);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .gameOver p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .gameOver span {
+    color: var(--dourado);
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  
